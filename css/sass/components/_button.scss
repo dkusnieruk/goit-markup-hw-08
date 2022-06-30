@@ -1,0 +1,23 @@
+.button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.875em;
+    border-radius: 4px;
+    background-color: var(--backgroundbutton);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: var(--colorsecondary);
+    line-height: 1.875em;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    transition: background-color, color, cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      250ms cubic-bezier(0.4, 0, 0.2, 1), 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+        &:hover{
+        background-color: var(--backgroundbutton);
+        cursor: pointer;
+        color: var(--colorsecondary);
+      
+      }
+  }
+  

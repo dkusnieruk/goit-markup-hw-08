@@ -1,0 +1,20 @@
+
+.occupation-index {
+    padding-bottom: 94px;
+    
+    &__title {
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 3em;
+      text-align: center;
+      color: var(--colorprimary);
+    }
+    &__text-infoset {
+      list-style:none;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    
+  }
+  

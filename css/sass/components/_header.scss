@@ -1,0 +1,20 @@
+.header {
+  position: relative;
+  padding: 24px 0px 25px;
+  border-bottom: thin solid var(--colorborderbottom);
+
+ &__ul,
+ {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+
+}
+
+&__list {
+  list-style: none;
+  display: flex;
+}
+}
+

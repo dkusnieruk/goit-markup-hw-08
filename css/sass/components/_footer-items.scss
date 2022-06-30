@@ -1,0 +1,29 @@
+.footsy {
+    justify-content: flex-start;
+    display: flex;
+    align-items:center;
+    align-content:center;
+  
+    &__chapter{
+      
+    }
+
+    &__mailto2 {
+      color: var(--colorfootsy);
+      text-decoration: none;
+      line-height: 1.714em;
+    }
+    
+    &__tele2  {
+      color: var(--colorfootsy);
+      text-decoration: none;
+      line-height: 1.714em;
+    }
+
+    &__adressdown {
+      color: var(--colorsecondary);
+      line-height: 1.714em;
+    }
+    
+  }
+   

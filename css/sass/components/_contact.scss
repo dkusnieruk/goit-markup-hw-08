@@ -1,0 +1,36 @@
+.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  
+&__iconic {
+  height: 16px;
+  width: 14px;
+  fill: var(--fillcontact);
+  margin-right: 5px;
+  transition: fill, cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+&__link
+{
+  text-decoration:none;
+  color: var(--fillcontact);
+  display: flex;
+  align-items: center;
+    transition: color, cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+&:hover {
+  color: var(--colorbutton);
+  cursor: pointer;
+}
+}
+&__link:hover &__iconic {
+  fill: var(--fillprimary);
+  cursor: pointer;
+}
+
+}

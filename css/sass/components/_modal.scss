@@ -1,0 +1,35 @@
+.modal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 528px;
+    min-height: 581px;
+    background-color: var(--backgroundbody);
+    animation-name: opacity;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+
+&__form{
+
+  
+}
+    
+&__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15em;
+  letter-spacing: 0.03em;
+  color: var(--colorprimary);
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+&__form-popup {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px;
+}
+  }
+ 

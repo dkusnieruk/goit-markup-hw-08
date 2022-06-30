@@ -1,0 +1,10 @@
+.active::after {
+    display: block;
+    position: absolute;
+    width: 60px;
+    top: 95%;
+    content: "";
+    border: 1px solid var(--colorborder);
+    border-radius: 2px;
+  }
+  

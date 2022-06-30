@@ -1,0 +1,32 @@
+/*base*/
+@import "./sass/base/background";
+@import "./sass/base/common";
+@import "./sass/base/container";
+@import "./sass/base/footer";
+@import "./sass/base/section";
+/*components*/
+@import "./sass/components/closebtn";
+@import "./sass/components/button";
+@import "./sass/components/button2";
+@import "./sass/components/card-overlay";
+@import "./sass/components/checkbox";
+@import "./sass/components/clients";
+@import "./sass/components/contact";
+@import "./sass/components/footer-items";
+@import "./sass/components/header";
+@import "./sass/components/logo";
+@import "./sass/components/modal";
+@import "./sass/components/navigation";
+@import "./sass/components/occupation";
+@import "./sass/components/ourwork";
+@import "./sass/components/social-footer";
+@import "./sass/components/subscription";
+@import "./sass/components/team-index";
+@import "./sass/components/text-form";
+@import "./sass/components/text-section";
+@import "./sass/components/top-index";
+@import "./sass/components/workers";
+/*utils*/
+@import "./sass/utils/active";
+@import "./sass/utils/variables";
+@import "./sass/utils/visually-hidden";

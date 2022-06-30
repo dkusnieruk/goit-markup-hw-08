@@ -1,0 +1,42 @@
+.clients{
+
+  &__chapter{
+
+  }
+
+  &__list{
+
+  }
+  
+  &__text-infoset {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: var(--colorprimary);
+    text-align: center;
+    padding: 94px 0px 50px;
+  }  
+  
+  &__iconic4 {
+    width: 170px;
+    height: 92px;
+    margin-bottom: 94px;
+    border: 1px solid var(--fillworkers);
+    fill: var(--fillworkers);
+    border-radius: 4px;
+    transition: border, fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      250ms cubic-bezier(0.4, 0, 0.2, 1);
+      
+      &:hover {
+        border: 1px solid var(--colorborder);
+        fill: var(--fillprimary);
+      }
+      
+  }
+}

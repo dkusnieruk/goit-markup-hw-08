@@ -1,0 +1,107 @@
+.declarations {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  
+  &__registerbutton {
+    width: 200px;
+    height: 50px;
+    background: var(--backgroundbutton);
+    color: var(--colorsecondary);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875em;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+    cursor: pointer;
+  }
+  
+  
+  &__declaration {
+    font-size: 14px;
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+    color: var(--colorshade);
+    text-align: center;
+  }
+  
+  &__link{
+    text-decoration: underline;
+    color: var(--colorbutton);
+  }
+
+  &__checks-svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  &__span {
+    position: relative;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+  }
+
+  &__input[type="checkbox"] {
+    visibility: hidden;
+    width: 20px;
+    height: 20px;
+  }
+
+  &__input[type="checkbox"] + &__label &__span {
+    content: "";
+    position: absolute;
+    outline: 2px solid var(--colorprimary);
+    width: 20px;
+    height: 20px;
+    right: 460px;
+    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  &__input[type="checkbox"]:checked + &__label &__span {
+    content: "";
+    position: absolute;
+    outline: 2px solid var(--colorsecondary);
+    width: 20px;
+    height: 20px;
+    right: 460px;
+    transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &__input[type="checkbox"] + &__label &__checks-svg {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  &__input[type="checkbox"]:checked + &__label &__checks-svg {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    fill: var(--fillprimary);
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+}
+
+
+
+
+  
+    
+  
+  

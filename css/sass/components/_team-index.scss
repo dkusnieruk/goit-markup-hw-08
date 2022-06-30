@@ -1,0 +1,28 @@
+.team-index {
+    text-align: center;
+    background: var(--backgroundframe);
+    padding-bottom: 94px;
+
+    &__list{
+
+
+    }
+    
+    &__text-infoset {
+      list-style:none;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+
+    &__tittle{
+      padding-top: 94px;
+      padding-bottom: 50px;
+      font-weight: 700;
+      font-size: 36px;
+      line-height: 3em;
+      color: var(--colorprimary);
+    }
+  }
+  
+  

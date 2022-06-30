@@ -1,0 +1,32 @@
+.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition-delay: 1s;
+    animation-duration: 1s;
+    animation-name: opacity2;
+    animation-timing-function: linear;
+  }
+  @keyframes opacity {
+    0% {
+      opacity: 0%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    100% {
+      opacity: 100%;
+    }
+  }
+  
+  @keyframes opacity2 {
+    0% {
+      opacity: 100%;
+    }
+    50% {
+      opacity: 50%;
+    }
+    100% {
+      opacity: 0%;
+    }
+  }

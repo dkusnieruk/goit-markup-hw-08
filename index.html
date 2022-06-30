@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Studio</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <ul class="header__ul">
+          <li class="header__list">
+            <a class="logo" href="">Web<span class="logo__span">Studio</span></a>
+          </li>
+          <ul class="header__ul">
+            <nav class="navigation">
+              <li class="navigation__list"><a class="active navigation__link" href="">Agencja</a></li>
+              <li class="navigation__list"><a class="navigation__link" href="./portfolio.html">Portfolio</a></li>
+              <li class="navigation__list"><a class="navigation__link" href="">Kontakt</a></li>
+            </nav>
+          </ul>
+          <li class="contact">
+            <a class="contact__link" href="mailto:info@devstudio.com">
+              <svg class="contact__iconic">
+                <use href="./css/icon.svg#icon-envelope"></use></svg>info@devstudio.com
+                </a
+            >
+          </li>
+          <li class="contact">
+            <a class="contact__link" href="tel:+48111111111">
+              <svg class="contact__iconic">
+                <use href="./css/icon.svg#icon-smartphone"></use>
+              </svg>
+              +48 111 111 111</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="background top-index">
+        <div class="container">
+          <h1 class="top-index__topic">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+          <button class="button" type="button" data-modal-open>Zamów usługę</button>
+        </div>
+      </section>
+      <section class="text-info section">
+        <div class="container">
+          <ul class="text-info__text-infoset">
+            <li class="text-list">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
+                  <use href="./css/icon.svg#icon-antena" ></use>
+                </svg>
+              </div>
+              <h2 class="text-list__title">LOREM IPSUM</h2>
+              <p class="text-list__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="text-list">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
+                  <use href="./css/icon.svg#icon-clock" ></use>
+                </svg>
+              </div>
+              <h2 class="text-list__title">LOREM IPSUM</h2>
+              <p class="text-list__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+            <li class="text-list">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
+                  <use href="./css/icon.svg#icon-diagram" ></use>
+                </svg>
+              </div>
+              <h2 class="text-list__title">LOREM IPSUM</h2>
+              <p class="text-list__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li><li class="text-list">
+              <div class="text-list__iconic2-frame">
+                <svg class="text-list__iconic2">
+                  <use href="./css/icon.svg#icon-astronaut" ></use>
+                </svg>
+              </div>
+              <h2 class="text-list__title">LOREM IPSUM</h2>
+              <p class="text-list__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+                arcu sem. Sed non sodales dui. Interdum et malesuada
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="occupation-index">
+        <div class="container">
+          <h2 class="occupation-index__title">Czym się zajmujemy</h2>
+          <ul class="occupation-index__text-infoset">
+            <li class="ourwork">
+              <img class="ourwork__image"
+                src="./images/background.jpg"
+                alt="biurko z klawiatura"
+                width="370"
+                height="296"
+              />
+              <p class="ourwork__occupation-index-text">Aplikacje komputerowe</p>
+            </li>
+            <li class="ourwork">
+              <img class="ourwork__image"
+                src="./images/background2.jpg"
+                alt="ekran z telefonem"
+                width="370"
+                height="296"
+              />
+              <p class="ourwork__occupation-index-text">Aplikacje mobilne</p>
+            </li>
+            <li class="ourwork">
+              <img class="ourwork__image"
+                src="./images/tablet.jpg"
+                alt="tablet"
+                height="296"
+                width="370"
+              />
+              <p class="ourwork__occupation-index-text">Rozwiązania graficzne</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="team-index">
+        <div class="container">
+          <h2  class="team-index__tittle">Nasz zespół</h2>
+          <ul class="team-index__text-infoset">
+            <li class="team-index__list">
+              <figure class="workers">
+                <img class="workers__image"
+                  src="./images/productdesigner.jpg"
+                  alt="productdesigner"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="workers__figcaption">
+                  <p class="workers__name-index">John Doe</p>
+                  <p class="workers__job-index">Product Designer</p>
+                  
+                  <ul class="workers__iconic-3-list">
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-instagram-2">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+            <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+
+                                        <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-twitter-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-facebook-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-linkedin-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                  </ul>
+                  </figcaption>
+              </figure>
+            </li>
+
+            <li class="workers__list">
+              <figure class="workers">
+                <img class="workers__image"
+                  src="./images/developer.jpg"
+                  alt="frontedndeveloper"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="workers__figcaption">
+                  <p class="workers__name-index">John Doe</p>
+                  <p class="workers__job-index">Frontend Developer</p>
+                  <ul class="workers__iconic-3-list">
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-instagram-2">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+            <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                                        <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-twitter-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-facebook-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-linkedin-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="workers__list">
+              <figure class="workers">
+                <img class="workers__image"
+                  src="./images/marketing.jpg"
+                  alt="marketing"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="workers__list">
+                  <p class="workers__name-index">John Doe</p>
+                  <p class="workers__job-index">Marketing</p>
+                  <ul class="workers__iconic-3-list">
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-instagram-2">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+            <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+
+                                        <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-twitter-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-facebook-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-linkedin-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+
+            <li class="workers__list">
+              <figure class="workers">
+                <img class="workers__image"
+                  src="./images/designer.jpg"
+                  alt="designer"
+                  width="270"
+                  height="260"
+                />
+                <figcaption class="workers__figcaption">
+                  <p class="workers__name-index">John Doe</p>
+                  <p class="workers__job-index">UI Designer</p>
+                  <ul class="workers__iconic-3-list">
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-instagram-2">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+            <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                                        <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-twitter-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-facebook-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                    <li class="workers__list">
+                      <a class="workers__iconic-3-list-link" href="">
+                    
+                    <svg class="workers__iconic3">
+                      <use href="./css/icon.svg#icon-linkedin-1">
+                      </use>
+                    </svg>
+                    </a>
+                    </li>
+                  </ul>
+                </figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="clients">
+        <div class="container">
+          <h2 class="clients__title">Nasi klienci</h2>
+          <p class="clients__chapter">
+            <ul class="clients__text-infoset">
+              <li class="clients__list">
+                <a href="">
+                <svg class="clients__iconic4">
+                  <use href="./css/icon.svg#icon-Logo"></use>
+                </svg>
+              </a>
+              </li>
+              <li class="clients__list">
+              <a href="">
+                <svg class="clients__iconic4">
+                  <use href="./css/icon.svg#icon-Logo2"></use>
+                </svg>
+              </a>
+              </li>
+              <li class="clients__list">
+                <a href="">
+                <svg class="clients__iconic4">
+                  <use href="./css/icon.svg#icon-Logo3"></use>
+                </svg>
+              </a>
+              </li>
+              <li class="clients__list">
+                <a href="">
+                <svg class="clients__iconic4">
+                  <use href="./css/icon.svg#icon-Logo4"></use>
+                </svg>
+              </a>          
+              </li>
+              <li class="clients__list">
+              <a href="">
+                <svg class="clients__iconic4">
+                  <use href="./css/icon.svg#icon-Logo5"></use>
+                </svg>
+              </a>      
+              </li>
+              <li class="clients__list">
+              <a href="">
+                <svg class="clients__iconic4">
+                  <use href="./css/icon.svg#icon-Logo6"></use>
+                </svg>
+            </a>  
+              </li>
+            
+            </ul>
+          </p>
+        </div>
+      </section>
+    </main>
+<footer class="footer">
+      <div class="container footsy">
+      <div class="footsy__chapter">
+        <div class="logo--down">
+          <a  class="logo" href="">Web<span class="logo__span--footer"> Studio </span> </a>
+        </div>
+        <adress class="footsy__adressdown">
+          m. Warszawa, Aleje Jerozolimskie 21
+        </adress>
+        <div >
+          <a class="footsy__mailto2" href="mailto:info@devstudio.com"> info@devstudio.com </a>
+        </div>
+        <div >
+          <a class="footsy__tele2" href="tel:+48111111111"> +48 111 111 111 </a>
+        </div>
+      </div>
+      <div class="socialy">
+        <h2 class="socialy__title" >Dołącz do nas</h2>
+
+        <ul class="socialy__iconic-listing">
+          <li class="socialy__list">
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
+                <use href="./css/icon.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialy__list">
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
+                <use href="./css/icon.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialy__list">
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
+                <use href="./css/icon.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="socialy__list">
+            <a class="socialy__iconic-3-list-link" href="">
+              <svg class="socialy__iconic3">
+                <use href="./css/icon.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+        </div>
+        <div class="subscription">
+        <p class="subscription__title" >Zapisz się do Newslettera</p>
+        <form class="subscription__form">
+          <label class="subscription__label">
+            <input class="subscription__sub-email" type="email" name="email" placeholder="  E-mail" required />
+          </label>
+          <button class="subscription__button-sub" type="submit">Zapisz Się <svg class="subscription__iconic-sub"><use href="./css/icon.svg#plane"></use></svg> </button>
+         
+        </form>
+      </div>
+      </div>
+    </footer>
+  </body>
+    
+  <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <svg class="close-btn">
+          <use href="./css/icon.svg#cancel" data-modal-close></use>
+        </svg>
+        <form class="modal__form">
+          <div class="modal__form-popup">
+            <h1 class="modal__title">
+              Zostaw swoje dane w formularzu poniżej 
+            </h1>
+          <div>
+            <form class="modal__form">
+            <label class="text">Imię
+            <input class="text__form-group1" type="text" name="text-name">
+           <svg class="text__form-icon1" ><use href="./css/icon.svg#user"></use> </svg>   
+          </label>
+
+          <label class="text">Telefon
+            <input class="text__form-group1" type="tel" name="tel-form">
+            <svg class="text__form-icon1" ><use href="./css/icon.svg#iphone"></use> </svg>   
+         
+          </label>
+          <label class="text">Email
+            <input class="text__form-group1" type="email" name="email-form">
+             <svg class="text__form-icon1" ><use href="./css/icon.svg#nvelope"></use> </svg>   
+         
+          </label>
+          <label class="text" >Komentarz
+          <textarea class="text__form-group1--size" rows="3" placeholder="Wprowadź tekst" ></textarea> 
+          </label>
+          </form>
+                    <div class="declarations">
+          
+            <div class="checkbox">
+              <input class="checkbox__input" type="checkbox" id="checks">
+              <label class="checkbox__label" for="checks">
+               <span class="checkbox__span" ><svg class="checkbox__checks-svg">
+                  <use href="./css/icon.svg#checked">
+                  </use>
+                </svg>
+                </span>
+              </label>
+            
+
+            <p class="checkbox__declaration">Oświadczam ,iż akceptuję <a class="checkbox__link" href="">Regulamin</a> i <a class="checkbox__link" href="">Politykę prywatności</a> </p>          
+          </div>
+          <button class="checkbox__registerbutton" type="submit">Wyślij</button>  
+       
+        </div>
+
+        </div>
+        </div>
+        </form>
+        </div>
+        </div>
+       <script src="./js/modal.js"></script>  
+</html>

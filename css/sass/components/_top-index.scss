@@ -1,0 +1,19 @@
+.top-index {
+  background-color: var(--backgroundtopindex);
+  padding: 200px 0px 240px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 1600px;
+
+  &__topic {
+    margin: 0 auto;
+    width: 696px;
+      font-weight: 900;
+    font-size: 44px;
+    line-height: 1.364em;
+    text-transform: uppercase;
+    color: var(--colorsecondary);
+  
+  }
+}

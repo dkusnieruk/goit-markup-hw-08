@@ -1,0 +1,40 @@
+.text-info{
+  &__text-infoset {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
+
+.text-list{
+  
+  &__iconic2-frame {
+    width: 270px;
+    height: 120px;
+    background: var(--backgroundframe);
+    padding: 25px 102px;
+    margin-right: 30px;
+  }
+
+    &__iconic2 {
+      width: 70px;
+      height: 70px;
+      display: flex;
+    }
+  
+  &__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.172em;
+    text-transform: uppercase;
+    color: var(--colorprimary);
+    padding-bottom: 10px;
+    padding-top: 30px;
+  }
+  &__text {
+    color: var(--colorshade);
+    line-height: 1.716em;
+    max-width: 290px;
+  }
+}
