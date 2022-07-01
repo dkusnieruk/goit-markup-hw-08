@@ -1,0 +1,59 @@
+.modal-mobile{
+    text-decoration:none;
+    &__ul{
+        
+    }
+    &__navigation{
+       font-weight:500;
+       font-size:40px;
+       line-height:1.175em;
+       color:var(--colorprimary);
+       
+    }
+    &__list{
+        list-style:none;
+        margin-bottom:36px;
+    }
+
+    &__link{
+        text-decoration:none;
+        color:var(--colorprimary);
+                &:hover{
+            color:var(--fillprimary);
+        }
+    
+    }
+    &__ulsocial{
+        display:flex;
+    }
+    &__social{
+        text-decoration:none;
+        color:var(--fillprimary);
+        font-weight:500;
+        font-size:18px;
+        line-height:1.22em;
+        padding-right:20px;
+    }
+    }
+
+.tel{
+    margin:302px 0px 30px;
+    &__link{
+        text-decoration:none;
+        font-weight:500;
+        font-size:34px;
+        line-height:1.17em;
+        color:var(--fillprimary);
+    }
+}
+.mail{
+    margin-bottom:64px;
+    &__link{
+        text-decoration:none;
+        font-weight:500;
+        font-size:24px;
+        line-height:1.16em;
+        color:var(--colorshade);
+       
+    }
+}

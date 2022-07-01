@@ -1,4 +1,33 @@
 .team-index {
+  text-align: center;
+  background: var(--backgroundframe);
+  padding-bottom: 94px;
+
+  &__list{
+display:flex;
+flex-direction:row;
+margin-bottom:30px;
+
+  }
+  &__text-infoset {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction:column;
+  }
+
+  
+  &__tittle{
+    padding-top: 94px;
+    padding-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 3em;
+    color: var(--colorprimary);
+  }
+}  
+
+/*.team-index {
     text-align: center;
     background: var(--backgroundframe);
     padding-bottom: 94px;
@@ -25,4 +54,4 @@
     }
   }
   
-  
+  */

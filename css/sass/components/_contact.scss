@@ -1,8 +1,38 @@
-.contact {
+.contact{
+  display:none;
+}
+
+.contact-mobile {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14em;
   letter-spacing: 0.02em;
+  &:hover{
+    fill:var(--fillprimary);
+  }
+  &__iconic {
+    height: 16px;
+    width: 14px;
+    fill: var(--fillcontact);
+    margin-right: 5px;
+    transition: fill, cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor:pointer;
+  :hover{
+    fill: var(--fillprimary);
+  }  
+  }
+  
+  
+}
+/*.contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14em;
+  letter-spacing: 0.02em;
+  &:hover{
+    fill:var(--fillprimary);
+  }
   
 &__iconic {
   height: 16px;
@@ -11,6 +41,10 @@
   margin-right: 5px;
   transition: fill, cursor 250ms cubic-bezier(0.4, 0, 0.2, 1),
     250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor:pointer;
+:hover{
+  fill: var(--fillprimary);
+}  
 }
 
 
@@ -34,3 +68,4 @@
 }
 
 }
+*/

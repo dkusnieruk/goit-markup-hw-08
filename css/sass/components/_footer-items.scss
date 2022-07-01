@@ -1,4 +1,43 @@
 .footsy {
+  text-align:center;
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  align-content:center;
+  max-width:480px;
+  height:603px;
+  padding: 60px 0px 0px;
+
+
+
+  &__chapter{
+    max-width: 480px;
+  }
+
+  &__mailto2 {
+
+    color: var(--colorfootsy);
+    text-decoration: none;
+    line-height: 1.714em;
+    max-width: 480px;
+  }
+  
+  &__tele2  {
+    color: var(--colorfootsy);
+    text-decoration: none;
+    line-height: 1.714em;
+    max-width:480px;
+  }
+
+  &__adressdown {
+    color: var(--colorsecondary);
+    line-height: 1.714em;
+    max-width:480px;
+  }
+  
+}
+
+/*.footsy {
     justify-content: flex-start;
     display: flex;
     align-items:center;
@@ -26,4 +65,4 @@
     }
     
   }
-   
+   */

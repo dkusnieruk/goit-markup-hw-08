@@ -1,4 +1,12 @@
 .background {
+  background-image: url(/images/Header-mobile.jpg),
+    linear-gradient(black, white);
+  background-size: 480px 400px;
+  background-repeat: no-repeat;
+  margin:auto;
+}
+/*
+.background {
     background-image: url(../images/backgroundindex.jpg),
       linear-gradient(black, white);
     background-size: cover;
@@ -6,3 +14,4 @@
     max-width: 1600px;
     margin: 0 auto;
   }
+  */

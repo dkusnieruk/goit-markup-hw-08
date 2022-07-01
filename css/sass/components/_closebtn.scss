@@ -7,4 +7,21 @@
     background-color: var(--backgroundbody);
     border: 1px solid (0, 0, 0, 0.1);
     cursor: pointer;
+    &:hover{
+      fill:var(--fillprimary);
+    }
+  }
+
+  .close-mobile {
+    position: absolute;
+    right:8px;
+    top:8px;
+    width: 18px;
+    height: 18px;
+    background-color: var(--backgroundbody);
+    border: 1px solid (0, 0, 0, 0.1);
+    cursor: pointer;
+    &:hover{
+      fill:var(--fillprimary);
+    }
   }
