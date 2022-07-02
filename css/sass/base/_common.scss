@@ -18,3 +18,9 @@ body {
   font-family: Roboto;
 }
 
+@media ( min-width:320px){
+  body{
+    overflow:scroll;
+    overflow-x:hidden;
+  }
+}

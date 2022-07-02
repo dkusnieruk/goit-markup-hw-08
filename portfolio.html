@@ -28,11 +28,12 @@
               <li class="navigation__list"><a class="navigation__link" href="">Kontakt</a></li>
             </nav>
           </ul>
+          <ul class="header__ul2">
           <li class="contact">
             <a class="contact__link" href="mailto:info@devstudio.com">
               <svg class="contact__iconic">
-                <use href="./css/icon.svg#icon-envelope"></use></svg
-              >info@devstudio.com</a
+                <use href="./css/icon.svg#icon-envelope"></use></svg>info@devstudio.com
+                </a
             >
           </li>
           <li class="contact">
@@ -40,13 +41,17 @@
               <svg class="contact__iconic">
                 <use href="./css/icon.svg#icon-smartphone"></use>
               </svg>
-              +48 111 111 111</a
-            >
+              +48 111 111 111</a>
+          </li>
+          </ul>
+          <li class="contact-mobile">
+            <svg class="contact-mobile__iconic" data-mobile-open>
+              <use href="./css/icon.svg#icon-menu"></use>
+            </svg>
           </li>
         </ul>
       </div>
     </header>
-
 
     <main>
       <section class="buttons">
@@ -67,7 +72,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class="card__image" src="./images/1.jpg" alt="project 1" />
+                  <img class="card__image" src="./images/techno.jpg" srcset="./images/techno@2x.jpg x2" alt="project 1" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -85,7 +90,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class="card__image" src="./images/2.jpg" alt="project 2" />
+                  <img class="card__image" src="./images/basket.jpg" srcset="./images/basket@2x.jpg x2" alt="project 2" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -105,7 +110,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class="card__image" src="./images/3.jpg" alt="project 3" />
+                  <img class="card__image" src="./images/seafood.jpg" srcset="./images/seafood@2x.jpg x2" alt="project 3" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -123,7 +128,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class="card__image" src="./images/4.jpg" alt="project 4" />
+                  <img class="card__image" src="./images/headphones.jpg" srcset="./images/headphones@2x.jpg x2" alt="project 4" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -141,7 +146,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class="card__image" src="./images/5.jpg" alt="project 5" />
+                  <img class="card__image" src="./images/box.jpg" srcset="./images/box@2x.jpg x2" alt="project 5" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -159,7 +164,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class= "card__image" src="./images/6.jpg" alt="project 6" />
+                  <img class= "card__image" src="./images/desktop.jpg" srcset="./images/desktop@2x.jpg x2" alt="project 6" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -179,7 +184,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class="card__image" src="./images/7.jpg" alt="project 7" />
+                  <img class="card__image" src="./images/book.jpg" srcset="./images/book@2x.jpg x2" alt="project 7" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -197,7 +202,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img class="card__image" src="./images/8.jpg" alt="project 8" />
+                  <img class="card__image" src="./images/lab.jpg" srcset="./images/lab@2x.jpg x2" alt="project 8" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -215,7 +220,7 @@
             <li class="card__list">
               <figure class="card__figure">
                 <div class="card__transform">
-                  <img clas="card__image" src="./images/9.jpg" alt="project 9" />
+                  <img clas="card__image" src="./images/laptop.jpg" srcset="./images/laptop@2x.jpg x2" alt="project 9" />
                   <p class="card__overlay">
                     Technocrack jest popularną platformą wykorzystywaną do
                     rozpowszechniania koronawirusa. Firmy wykorzystują tę
@@ -235,6 +240,7 @@
     </main>
     <footer class="footer">
       <div class="container footsy">
+        <div class="footsy__tablet">
       <div class="footsy__chapter">
         <div class="logo--down">
           <a  class="logo" href="">Web<span class="logo__span--footer"> Studio </span> </a>
@@ -242,10 +248,10 @@
         <adress class="footsy__adressdown">
           m. Warszawa, Aleje Jerozolimskie 21
         </adress>
-        <div class="footsy__chapter" >
+        <div >
           <a class="footsy__mailto2" href="mailto:info@devstudio.com"> info@devstudio.com </a>
         </div>
-        <div class="footsy__chapter" >
+        <div >
           <a class="footsy__tele2" href="tel:+48111111111"> +48 111 111 111 </a>
         </div>
       </div>
@@ -283,10 +289,11 @@
           </li>
         </ul>
         </div>
+        </div>
         <div class="subscription">
         <p class="subscription__title" >Zapisz się do Newslettera</p>
         <form class="subscription__form">
-          <label class="subscription__chapter">
+          <label class="subscription__label">
             <input class="subscription__sub-email" type="email" name="email" placeholder="  E-mail" required />
           </label>
           <button class="subscription__button-sub" type="submit">Zapisz Się <svg class="subscription__iconic-sub"><use href="./css/icon.svg#plane"></use></svg> </button>
@@ -297,4 +304,96 @@
     </footer>
 
   </body>
+
+<!--okno modalne-->    
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <svg class="close-btn">
+      <use href="./css/icon.svg#cancel" data-modal-close></use>
+    </svg>
+    <form class="modal__form">
+      <div class="modal__form-popup">
+        <h1 class="modal__title">
+          Zostaw swoje dane w formularzu poniżej 
+        </h1>
+      <div>
+        <form class="modal__form">
+        <label class="text">Imię
+        <input class="text__form-group1" type="text" name="text-name">
+       <svg class="text__form-icon1" ><use href="./css/icon.svg#user"></use> </svg>   
+      </label>
+
+      <label class="text">Telefon
+        <input class="text__form-group1" type="tel" name="tel-form">
+        <svg class="text__form-icon1" ><use href="./css/icon.svg#iphone"></use> </svg>   
+     
+      </label>
+      <label class="text">Email
+        <input class="text__form-group1" type="email" name="email-form">
+         <svg class="text__form-icon1" ><use href="./css/icon.svg#nvelope"></use> </svg>   
+     
+      </label>
+      <label class="text" >Komentarz
+      <textarea class="text__form-group1--size" rows="3" placeholder="Wprowadź tekst" ></textarea> 
+      </label>
+      </form>
+                <div class="declarations">
+      
+        <div class="checkbox">
+          <input class="checkbox__input" type="checkbox" id="checks">
+          <label class="checkbox__label" for="checks">
+           <span class="checkbox__span" ><svg class="checkbox__checks-svg">
+              <use href="./css/icon.svg#checked">
+              </use>
+            </svg>
+            </span>
+          </label>
+        
+
+        <p class="checkbox__declaration">Oświadczam ,iż akceptuję <a class="checkbox__link" href="">Regulamin</a> i <a class="checkbox__link" href="">Politykę prywatności</a> </p>          
+      </div>
+      <button class="checkbox__registerbutton" type="submit">Wyślij</button>  
+   
+    </div>
+
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+   <script src="./js/modal.js"></script>  
+
+   <!--mobile modalne-->
+<div class="backdrop is-hidden" data-mobile>
+<div class="modal-second">
+  <svg class="close-mobile">
+    <use href="./css/icon.svg#icon-close" class="close-mobile__svg" data-mobile-close></use>
+  </svg>
+  <div class="modal-mobile container">
+    <ul class="modal-mobile__ul">
+      <nav class="modal-mobile__navigation">
+        <li class="modal-mobile__list"><a class="modal-mobile__link" href="./index.html">Agencja</a> </li>
+        <li class="modal-mobile__list"><a class="modal-mobile__link" href="./portfolio.html">Portfolio</a> </li>
+        <li class="modal-mobile__list"><a class="modal-mobile__link" href="">Kontakt</a> </li>
+      </nav>
+    </ul>
+    <div class="tel">
+      <a class="tel__link" href="tel:+48111111111">+48 111 111 111</a>
+    </div>
+    <div class="mail">
+      <a class="mail__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+    </div>
+    <ul class="modal-mobile__ulsocial" >
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Instagram</a> </li>
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Tweeter</a> </li>
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Facebook</a> </li>
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Linkedin</a> </li>
+    </ul>
+
+  </div>
+  </div>
+  </div>
+  </div>
+ <script src="./js/mobile-menu.js"></script>  
+
 </html>

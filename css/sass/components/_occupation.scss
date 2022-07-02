@@ -1,5 +1,26 @@
-.occupation-index{
+.occupation-index {
   display:none;
+  padding-bottom: 94px;
+  
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 3em;
+    text-align: center;
+    color: var(--colorprimary);
+  }
+  &__text-infoset {
+    list-style:none;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+}
+@media screen and (min-width: 1200px){
+  .occupation-index{
+    display:block;
+  }
 }
 /*
 .occupation-index {

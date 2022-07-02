@@ -17,6 +17,20 @@
   
   }
 }
+
+@media screen and (min-width: 1200px)
+{
+  .top-index {
+  
+    &__topic {
+      width: 696px;
+      font-size: 44px;
+      line-height: 1.36em;
+      margin-bottom:30px;
+    }
+  }
+  
+}
 /*
 
 .top-index {

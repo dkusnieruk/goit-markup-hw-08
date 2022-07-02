@@ -27,8 +27,8 @@
   
   
   &__declaration {
-    font-size: 14px;
-    line-height: 1.71em;
+    font-size: 12px;
+    line-height: 1.16em;
     letter-spacing: 0.03em;
     color: var(--colorshade);
     text-align: center;
@@ -61,9 +61,9 @@
     content: "";
     position: absolute;
     outline: 2px solid var(--colorprimary);
-    width: 20px;
-    height: 20px;
-    right: 460px;
+    width: 16px;
+    height: 15px;
+    right: 390px;
     transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -71,9 +71,9 @@
     content: "";
     position: absolute;
     outline: 2px solid var(--colorsecondary);
-    width: 20px;
-    height: 20px;
-    right: 460px;
+    width: 16px;
+    height: 15px;
+    right: 390px;
     transition: outline 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   

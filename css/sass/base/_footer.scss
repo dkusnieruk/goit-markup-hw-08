@@ -1,9 +1,25 @@
 .footer {
   display:flex;
-  max-width:480px;
+  
   background-color: #2f303a;
   height:603px;
 }
+
+@media screen and (min-width: 768px){
+
+.footer{
+  height:463px;
+}
+}
+
+@media screen and (min-width: 1200px){
+
+  .footer{
+    height:252px;
+    
+  }
+  }
+  
 /*
 .footer {
     background-color: #2f303a;

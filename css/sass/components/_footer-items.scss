@@ -4,8 +4,6 @@
   flex-direction:column;
   align-items:center;
   align-content:center;
-  max-width:480px;
-  height:603px;
   padding: 60px 0px 0px;
 
 
@@ -37,6 +35,37 @@
   
 }
 
+@media screen and (min-width: 768px)
+{
+  .footsy
+  {
+    
+    height:463px;
+    width:100%;
+    
+    &__tablet{
+      display:flex;
+      align-items:center;
+      margin-bottom:60px;
+    }
+  }
+}
+
+
+@media screen and (min-width: 1200px){
+.footsy{
+justify-content: space-between;
+display: flex;
+display:grid;
+grid-template-columns: auto auto;
+height:252px;
+align-items:flex-start;
+align-content: flex-start;
+text-align:start;
+padding:60px 15px;
+width:1200px;
+
+}}
 /*.footsy {
     justify-content: flex-start;
     display: flex;

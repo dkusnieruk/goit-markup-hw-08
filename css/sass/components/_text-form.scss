@@ -23,22 +23,24 @@
 }
   
   &__form-group1 {
-    width: 448px;
+    width:370px;
     height: 40px;
     margin-top: 4px;
     margin-bottom: 10px;
     border: 1px solid var(--colorbordergroup);
     border-radius: 4px;
+    padding-left: 30px;
 
     &--size {
-      width: 448px;
+      width:370px;
       height: 120px;
       margin-top: 4px;
       margin-bottom: 10px;
       resize: none;
       border: 1px solid var(--colorbordergroup);
       border-radius: 4px;
-      
+      padding: 12px 16px;
+
       &:hover::placeholder{
         color:var(--colorbutton);
       }

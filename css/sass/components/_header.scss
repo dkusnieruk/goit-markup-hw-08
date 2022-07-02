@@ -3,7 +3,11 @@
   padding: 24px 15px 25px;
   border-bottom: thin solid var(--colorborderbottom);
 
- &__ul,
+&__ul2{
+  list-style:none;
+}
+
+ &__ul
  {
   list-style: none;
   display: flex;
@@ -17,6 +21,14 @@
   display: flex;
 }
 }
+
+@media screen and (min-width: 1200px){
+  .header{
+    &__ul2{
+      display:flex;
+    }
+  }
+  }
 
 /*.header {
   position: relative;

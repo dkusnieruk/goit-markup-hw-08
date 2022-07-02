@@ -26,7 +26,32 @@ margin-bottom:30px;
     color: var(--colorprimary);
   }
 }  
+@media screen and (min-width: 768px){
+  .team-index {
+    
+    &__text-infoset {
+      display:grid;
+      grid-template-columns: 369px 369px;
+    }
+   
+   }
+}
 
+@media screen and (min-width: 1200px){
+.team-index {
+
+  &__text-infoset {
+    list-style:none;    
+    justify-content: space-between;
+    flex-direction:row;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    
+  }
+
+  
+}
+}
 /*.team-index {
     text-align: center;
     background: var(--backgroundframe);

@@ -27,6 +27,7 @@
               <li class="navigation__list"><a class="navigation__link" href="">Kontakt</a></li>
             </nav>
           </ul>
+          <ul class="header__ul2">
           <li class="contact">
             <a class="contact__link" href="mailto:info@devstudio.com">
               <svg class="contact__iconic">
@@ -41,6 +42,7 @@
               </svg>
               +48 111 111 111</a>
           </li>
+          </ul>
           <li class="contact-mobile">
             <svg class="contact-mobile__iconic" data-mobile-open>
               <use href="./css/icon.svg#icon-menu"></use>
@@ -153,7 +155,8 @@
             <li class="team-index__list">
               <figure class="workers">
                 <img class="workers__image"
-                  src="./images/productdesigner.jpg"
+                  src="./images/product designer.jpg"
+                  srcset="./images/product designer@2x.jpg x2"
                   alt="productdesigner"
                   width="270"
                   height="260"
@@ -207,7 +210,8 @@
             <li class="workers__list">
               <figure class="workers">
                 <img class="workers__image"
-                  src="./images/developer.jpg"
+                  src="./images/frontendev.jpg"
+                  srcset="./images/frontendev@2x x2"
                   alt="frontedndeveloper"
                   width="270"
                   height="260"
@@ -259,6 +263,7 @@
               <figure class="workers">
                 <img class="workers__image"
                   src="./images/marketing.jpg"
+                  srcset="./images/marketing@2x.jpg x2"
                   alt="marketing"
                   width="270"
                   height="260"
@@ -311,7 +316,8 @@
             <li class="workers__list">
               <figure class="workers">
                 <img class="workers__image"
-                  src="./images/designer.jpg"
+                  src="./images/ux.jpg"
+                  srcset="./images/ux@2x.jpg x2"
                   alt="designer"
                   width="270"
                   height="260"
@@ -365,7 +371,7 @@
       <section class="clients">
         <div class="container">
           <h2 class="clients__title">Nasi klienci</h2>
-          <p class="clients__chapter">
+          <div class="clients__chapter">
             <ul class="clients__text-infoset">
               <li class="clients__list">
                 <a href="">
@@ -411,12 +417,13 @@
               </li>
             
             </ul>
-          </p>
+          </div>
         </div>
       </section>
     </main>
 <footer class="footer">
       <div class="container footsy">
+        <div class="footsy__tablet">
       <div class="footsy__chapter">
         <div class="logo--down">
           <a  class="logo" href="">Web<span class="logo__span--footer"> Studio </span> </a>
@@ -465,6 +472,7 @@
           </li>
         </ul>
         </div>
+        </div>
         <div class="subscription">
         <p class="subscription__title" >Zapisz się do Newslettera</p>
         <form class="subscription__form">
@@ -478,6 +486,7 @@
       </div>
     </footer>
   </body>
+  
 <!--okno modalne-->    
   <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -538,7 +547,7 @@
   
        <!--mobile modalne-->
   <div class="backdrop is-hidden" data-mobile>
-    <div class="modal">
+    <div class="modal-second">
       <svg class="close-mobile">
         <use href="./css/icon.svg#icon-close" class="close-mobile__svg" data-mobile-close></use>
       </svg>

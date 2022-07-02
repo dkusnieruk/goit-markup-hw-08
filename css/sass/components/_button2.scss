@@ -7,16 +7,18 @@
 
   &__menu {
     list-style:none;
-    justify-content: center;
+    justify-content: start;
     padding: 94px 0px 50px;
     display:flex;
+    flex-wrap:wrap;
     
   }
 
     &__button{
+    min-width:138px;
     border-radius: 4px;
     background: var(--backgroundframe);
-    margin-right: 8px;
+    margin: 0px 8px 15px 0px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625em;
@@ -41,3 +43,25 @@
     }
   }
   
+  @media screen and (min-width: 768px)
+{
+  .buttons {
+    padding: 0px 60px;
+    
+      &__button{
+      min-width:109px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1200px)
+  {
+    .buttons {
+
+      &__menu {
+        justify-content: center;
+        padding: 94px 0px 50px;
+      
+      }
+     }
+    }

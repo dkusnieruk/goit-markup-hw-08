@@ -5,11 +5,14 @@
     justify-content: center;
     
     align-items:center;
+    
     &__label{
     margin-bottom:20px;
       
     }
-
+    &__chapter{
+      margin-bottom:20px;
+    }
     &__form{
       align-items:center;
       display:flex;
@@ -23,6 +26,7 @@
     height: 24px;
     margin-left: 24px;
     margin-right: 28px;
+
   }
  
   &__button-sub {
@@ -40,6 +44,7 @@
     box-shadow: 0px 4px 4px var(--backgroundbackdrop);
     font-weight: 700;
     cursor: pointer;
+    margin-bottom:20px;
   }
 
     &__sub-email{
@@ -66,3 +71,18 @@
   
   }
   
+  @media screen and (min-width: 1200px){
+  .subscription {
+    align-items:start;
+    margin-bottom:60px;
+   
+    &__form{
+      flex-direction:row;
+    }
+
+    &__sub-email{
+    width: 358px;
+   
+  }
+  }
+  }  

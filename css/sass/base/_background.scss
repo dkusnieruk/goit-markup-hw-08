@@ -1,11 +1,58 @@
 .background {
-  background-image: url(/images/Header-mobile.jpg),
+  background-image: url(/images/Headermob.jpg),
     linear-gradient(black, white);
-  background-size: 480px 400px;
+  background-size: cover;
   background-repeat: no-repeat;
-  margin:auto;
+  margin:0 auto;
+  
+  
+  @media (min-devive-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx){
+  .background{
+    background-image: url(/images/Headermob@2x.jpg);
+  }
 }
-/*
+}
+
+
+@media screen and (min-width: 768px)
+{
+  .background{
+    background-image: url(/images/Headertab.jpg),
+    linear-gradient(black, white);
+   
+    @media (min-devive-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx){
+    .background{
+      background-image: url(/images/Headertab@2x.jpg);
+    }
+  }
+  
+  }
+}
+
+
+@media screen and (min-width: 1200px)
+{
+  .background{
+    background-image: url(/images/Headerdesk.jpg),
+    linear-gradient(black, white);
+   
+    @media (min-devive-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx){
+    .background{
+      background-image: url(/images/Headerdesk@2x.jpg);
+    }
+  }
+  
+    height:600px;
+  }
+}
+
+/* styles
 .background {
     background-image: url(../images/backgroundindex.jpg),
       linear-gradient(black, white);
