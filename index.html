@@ -118,30 +118,43 @@
           <h2 class="occupation-index__title">Czym się zajmujemy</h2>
           <ul class="occupation-index__text-infoset">
             <li class="ourwork">
-              <img class="ourwork__image"
-                src="./images/background.jpg"
+              <picture>
+                <source 
+                srcset="./images/desktop/background.jpg, ./images/desktop/background@2x.jpg x2" media="(min-width:1200px" >
+                <source>
+                <img class="ourwork__image"
+                src="./images/desktop/background.jpg"
                 alt="biurko z klawiatura"
                 width="370"
                 height="296"
               />
+              </picture>
               <p class="ourwork__occupation-index-text">Aplikacje komputerowe</p>
             </li>
             <li class="ourwork">
-              <img class="ourwork__image"
-                src="./images/background2.jpg"
+              <picture>
+                <source scrset="./images/desktop/background2.jpg x1, ./images/desktop/background2@2x.jpg x2" media="(min-width:1200px"> 
+                <source>
+                <img class="ourwork__image"
+                src="./images/desktop/background2.jpg"
                 alt="ekran z telefonem"
                 width="370"
                 height="296"
               />
+              </picture>
               <p class="ourwork__occupation-index-text">Aplikacje mobilne</p>
             </li>
             <li class="ourwork">
+              <picture>
+                <source srcset="./images/desktop/background3.jpg 1x, ./images/desktop/background3@2x.jpg 2x" media="(min-width:1200px">
+                <source>
               <img class="ourwork__image"
-                src="./images/tablet.jpg"
+                src="./images/desktop/background3.jpg"
                 alt="tablet"
                 height="296"
                 width="370"
               />
+              </picture>
               <p class="ourwork__occupation-index-text">Rozwiązania graficzne</p>
             </li>
           </ul>
@@ -154,13 +167,21 @@
           <ul class="team-index__text-infoset">
             <li class="team-index__list">
               <figure class="workers">
+                <picture>
+                  <source srcset="./images/mobile/productdesigner.jpg 1x , ./images/mobile/productdesigner@2x.jpg 2x"
+                  media(min-width:480px)>
+                  <source srcset="./images/tab/productdesigner.jpg 1x, ./images/tab/productdesigner@2x.jpg 2x"
+                  media(min-width768px)>
+                  <source srcset="./images/desktop/productdesigner.jpg 1x,./images/desktop/productdesigner@2x.jpg 2x "
+                  media(min-width:1200px)>
+                  
                 <img class="workers__image"
-                  src="./images/product designer.jpg"
-                  srcset="./images/product designer@2x.jpg x2"
+                  src="./images/desktop/productdesigner.jpg"
                   alt="productdesigner"
                   width="270"
                   height="260"
                 />
+                  </picture>
                 <figcaption class="workers__figcaption">
                   <p class="workers__name-index">John Doe</p>
                   <p class="workers__job-index">Product Designer</p>
@@ -209,13 +230,23 @@
 
             <li class="workers__list">
               <figure class="workers">
+                
+                <picture>
+                  <source srcset="./images/mobile/frontend.jpg 1x , ./images/mobile/frontend@2x.jpg 2x"
+                  media(min-width:480px)>
+                  <source srcset="./images/tab/frontend.jpg 1x, ./images/tab/frontend@2x.jpg 2x"
+                  media(min-width768px)>
+                  <source srcset="./images/desktop/frontend.jpg 1x,./images/desktop/frontend@2x.jpg 2x "
+                  media(min-width:1200px)>
+                
                 <img class="workers__image"
-                  src="./images/frontendev.jpg"
-                  srcset="./images/frontendev@2x x2"
+                  src="./images/desktop/frontend.jpg"
                   alt="frontedndeveloper"
                   width="270"
                   height="260"
                 />
+                </picture>
+
                 <figcaption class="workers__figcaption">
                   <p class="workers__name-index">John Doe</p>
                   <p class="workers__job-index">Frontend Developer</p>
@@ -261,13 +292,23 @@
 
             <li class="workers__list">
               <figure class="workers">
-                <img class="workers__image"
-                  src="./images/marketing.jpg"
-                  srcset="./images/marketing@2x.jpg x2"
+
+                <picture>
+                  <source srcset="./images/mobile/marketing.jpg 1x , ./images/mobile/marketing@2x.jpg 2x"
+                  media(min-width:480px)>
+                  <source srcset="./images/tab/marketing.jpg 1x, ./images/tab/marketing@2x.jpg 2x"
+                  media(min-width768px)>
+                  <source srcset="./images/desktop/marketing.jpg 1x,./images/desktop/marketing@2x.jpg 2x "
+                  media(min-width:1200px)>
+                
+                  <img class="workers__image"
+                  src="./images/desktop/marketing.jpg"
                   alt="marketing"
                   width="270"
                   height="260"
                 />
+                </picture>
+
                 <figcaption class="workers__list">
                   <p class="workers__name-index">John Doe</p>
                   <p class="workers__job-index">Marketing</p>
@@ -315,13 +356,23 @@
 
             <li class="workers__list">
               <figure class="workers">
+
+                <picture>
+                  <source srcset="./images/mobile/ux.jpg 1x , ./images/mobile/ux@2x.jpg 2x"
+                  media(min-width:480px)>
+                  <source srcset="./images/tab/ux.jpg 1x, ./images/tab/ux@2x.jpg 2x"
+                  media(min-width768px)>
+                  <source srcset="./images/desktop/ux.jpg 1x,./images/desktop/ux@2x.jpg 2x "
+                  media(min-width:1200px)>
+                
                 <img class="workers__image"
-                  src="./images/ux.jpg"
-                  srcset="./images/ux@2x.jpg x2"
+                  src="./images/desktop/ux.jpg"
                   alt="designer"
                   width="270"
                   height="260"
                 />
+                </picture>
+
                 <figcaption class="workers__figcaption">
                   <p class="workers__name-index">John Doe</p>
                   <p class="workers__job-index">UI Designer</p>
@@ -486,7 +537,7 @@
       </div>
     </footer>
   </body>
-  
+
 <!--okno modalne-->    
   <div class="backdrop is-hidden" data-modal>
       <div class="modal">
