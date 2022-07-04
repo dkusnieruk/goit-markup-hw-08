@@ -30,12 +30,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto;
+    height: 600px;
   }
 }
 @media screen and (min-width: 1200px) and (min-devive-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
-  .background {
-    height: 600px;
-  }
   .background .background {
     background-image: url("..images/Headerdesk@2x.jpg");
   }
@@ -904,7 +902,7 @@ body {
   top: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
-  min-height: 796px;
+  height: 100vh;
   background-color: var(--backgroundbody);
   animation-name: opacity;
   animation-duration: 1s;

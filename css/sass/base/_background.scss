@@ -45,6 +45,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin:0 auto;
+    height:600px;
     
     
     @media (min-devive-pixel-ratio: 2),
@@ -53,7 +54,7 @@
     .background{
       background-image: url("..images/Headerdesk@2x.jpg");
     }
-    height:600px;
+    
   }
   }
 }
