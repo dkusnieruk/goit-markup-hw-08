@@ -1,5 +1,5 @@
 .background {
-  background-image: url(/images/Headermob.jpg),
+  background-image: url('/images/Headermob.jpg'),
     linear-gradient(black, white);
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@
 (min-resolution: 192dpi),
 (min-resolution: 2dppx){
   .background{
-    background-image: url(/images/Headermob@2x.jpg);
+    background-image: url('/images/Headermob@2x.jpg');
   }
 }
 }
@@ -19,14 +19,14 @@
 @media screen and (min-width: 768px)
 {
   .background{
-    background-image: url(/images/Headertab.jpg),
+    background-image: url('/images/Headertab.jpg'),
     linear-gradient(black, white);
    
     @media (min-devive-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
     .background{
-      background-image: url(/images/Headertab@2x.jpg);
+      background-image: url('/images/Headertab@2x.jpg');
     }
   }
   
@@ -37,14 +37,14 @@
 @media screen and (min-width: 1200px)
 {
   .background{
-    background-image: url(/images/Headerdesk.jpg),
+    background-image: url('/images/Headerdesk.jpg'),
     linear-gradient(black, white);
    
     @media (min-devive-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx){
     .background{
-      background-image: url(/images/Headerdesk@2x.jpg);
+      background-image: url('/images/Headerdesk@2x.jpg');
     }
   }
   
