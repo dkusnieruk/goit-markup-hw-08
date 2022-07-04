@@ -1,35 +1,43 @@
 /*base*/
 .background {
-  background-image: url("/images/Headermob.jpg"), linear-gradient(black, white);
+  background-image: url("../images/Headermob.jpg"), linear-gradient(black, white);
   background-size: cover;
   background-repeat: no-repeat;
   margin: 0 auto;
 }
 @media (min-devive-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .background .background {
-    background-image: url("/images/Headermob@2x.jpg");
+    background-image: url("..images/Headermob@2x.jpg");
   }
 }
 
 @media screen and (min-width: 768px) {
   .background {
-    background-image: url("/images/Headertab.jpg"), linear-gradient(black, white);
+    background-image: url("../images/Headertab.jpg"), linear-gradient(black, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) and (min-devive-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .background .background {
-    background-image: url("/images/Headertab@2x.jpg");
+    background-image: url("..images/Headertab@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
   .background {
-    background-image: url("/images/Headerdesk.jpg"), linear-gradient(black, white);
-    height: 600px;
+    background-image: url("../images/Headerdesk.jpg"), linear-gradient(black, white);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 1200px) and (min-devive-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+  .background {
+    height: 600px;
+  }
   .background .background {
-    background-image: url("/images/Headerdesk@2x.jpg");
+    background-image: url("..images/Headerdesk@2x.jpg");
   }
 }
 /* styles
