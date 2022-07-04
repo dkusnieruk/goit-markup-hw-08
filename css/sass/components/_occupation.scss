@@ -20,7 +20,12 @@
 @media screen and (min-width: 1200px){
   .occupation-index{
     display:block;
+  
+  &__text-infoset{
+    max-width: 1200px;
+    margin:auto;
   }
+}
 }
 /*
 .occupation-index {

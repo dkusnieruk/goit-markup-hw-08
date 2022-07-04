@@ -76,6 +76,8 @@ padding:94px 0px;
  
   
   &__text-infoset {
+    max-width:1200px;
+    margin:auto;
     flex-wrap:wrap;
     display: flex;
     justify-content: space-between;

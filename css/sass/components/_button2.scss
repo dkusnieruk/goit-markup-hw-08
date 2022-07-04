@@ -46,8 +46,12 @@
   @media screen and (min-width: 768px)
 {
   .buttons {
-    padding: 0px 60px;
-    
+    padding: 0px;
+
+      &__menu{
+        justify-content:center;
+      }
+      
       &__button{
       min-width:109px;
       }
