@@ -536,99 +536,98 @@
       </div>
       </div>
     </footer>
-    <script src="./js//modal.js"></script>
-    <script src="./js/mobile-menu.js"></script>
   </body>
 
 <!--okno modalne-->    
-  <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <svg class="close-btn">
-          <use href="./css/icon.svg#cancel" data-modal-close></use>
-        </svg>
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <svg class="close-btn">
+      <use href="./css/icon.svg#cancel" data-modal-close></use>
+    </svg>
+    <form class="modal__form">
+      <div class="modal__form-popup">
+        <h1 class="modal__title">
+          Zostaw swoje dane w formularzu poniżej 
+        </h1>
+      <div>
         <form class="modal__form">
-          <div class="modal__form-popup">
-            <h1 class="modal__title">
-              Zostaw swoje dane w formularzu poniżej 
-            </h1>
-          <div>
-            <form class="modal__form">
-            <label class="text">Imię
-            <input class="text__form-group1" type="text" name="text-name">
-           <svg class="text__form-icon1" ><use href="./css/icon.svg#user"></use> </svg>   
-          </label>
+        <label class="text">Imię
+        <input class="text__form-group1" type="text" name="text-name">
+       <svg class="text__form-icon1" ><use href="./css/icon.svg#user"></use> </svg>   
+      </label>
 
-          <label class="text">Telefon
-            <input class="text__form-group1" type="tel" name="tel-form">
-            <svg class="text__form-icon1" ><use href="./css/icon.svg#iphone"></use> </svg>   
-         
+      <label class="text">Telefon
+        <input class="text__form-group1" type="tel" name="tel-form">
+        <svg class="text__form-icon1" ><use href="./css/icon.svg#iphone"></use> </svg>   
+     
+      </label>
+      <label class="text">Email
+        <input class="text__form-group1" type="email" name="email-form">
+         <svg class="text__form-icon1" ><use href="./css/icon.svg#nvelope"></use> </svg>   
+     
+      </label>
+      <label class="text" >Komentarz
+      <textarea class="text__form-group1--size" rows="3" placeholder="Wprowadź tekst" ></textarea> 
+      </label>
+      </form>
+                <div class="declarations">
+      
+        <div class="checkbox">
+          <input class="checkbox__input" type="checkbox" id="checks">
+          <label class="checkbox__label" for="checks">
+           <span class="checkbox__span" ><svg class="checkbox__checks-svg">
+              <use href="./css/icon.svg#checked">
+              </use>
+            </svg>
+            </span>
           </label>
-          <label class="text">Email
-            <input class="text__form-group1" type="email" name="email-form">
-             <svg class="text__form-icon1" ><use href="./css/icon.svg#nvelope"></use> </svg>   
-         
-          </label>
-          <label class="text" >Komentarz
-          <textarea class="text__form-group1--size" rows="3" placeholder="Wprowadź tekst" ></textarea> 
-          </label>
-          </form>
-                    <div class="declarations">
-          
-            <div class="checkbox">
-              <input class="checkbox__input" type="checkbox" id="checks">
-              <label class="checkbox__label" for="checks">
-               <span class="checkbox__span" ><svg class="checkbox__checks-svg">
-                  <use href="./css/icon.svg#checked">
-                  </use>
-                </svg>
-                </span>
-              </label>
-            
+        
 
-            <p class="checkbox__declaration">Oświadczam ,iż akceptuję <a class="checkbox__link" href="">Regulamin</a> i <a class="checkbox__link" href="">Politykę prywatności</a> </p>          
-          </div>
-          <button class="checkbox__registerbutton" type="submit">Wyślij</button>  
-       
-        </div>
+        <p class="checkbox__declaration">Oświadczam ,iż akceptuję <a class="checkbox__link" href="">Regulamin</a> i <a class="checkbox__link" href="">Politykę prywatności</a> </p>          
+      </div>
+      <button class="checkbox__registerbutton" type="submit">Wyślij</button>  
+   
+    </div>
 
-        </div>
-        </div>
-        </form>
-        </div>
-        </div>
-       <script src="./js/modal.js"></script>  
-  
-       <!--mobile modalne-->
-  <div class="backdrop is-hidden" data-mobile>
-    <div class="modal-second">
-      <svg class="close-mobile">
-        <use href="./css/icon.svg#icon-close" class="close-mobile__svg" data-mobile-close></use>
-      </svg>
-      <div class="modal-mobile container">
-        <ul class="modal-mobile__ul">
-          <nav class="modal-mobile__navigation">
-            <li class="modal-mobile__list"><a class="modal-mobile__link" href="./index.html">Agencja</a> </li>
-            <li class="modal-mobile__list"><a class="modal-mobile__link" href="./portfolio.html">Portfolio</a> </li>
-            <li class="modal-mobile__list"><a class="modal-mobile__link" href="">Kontakt</a> </li>
-          </nav>
-        </ul>
-        <div class="tel">
-          <a class="tel__link" href="tel:+48111111111">+48 111 111 111</a>
-        </div>
-        <div class="mail">
-          <a class="mail__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </div>
-        <ul class="modal-mobile__ulsocial" >
-        <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Instagram</a> </li>
-        <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Tweeter</a> </li>
-        <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Facebook</a> </li>
-        <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Linkedin</a> </li>
-        </ul>
-  
-      </div>
-      </div>
-      </div>
-      </div>
-     <script src="./js/mobile-menu.js"></script>  
+    </div>
+    </div>
+    </form>
+    </div>
+    </div>
+   <script src="./js/modal.js"></script>  
 
-</html>
+   <!--mobile modalne-->
+<div class="backdrop is-hidden" data-mobile>
+<div class="modal-second">
+  <svg class="close-mobile">
+    <use href="./css/icon.svg#icon-close" class="close-mobile__svg" data-mobile-close></use>
+  </svg>
+  <div class="modal-mobile container">
+    <ul class="modal-mobile__ul">
+      <nav class="modal-mobile__navigation">
+        <li class="modal-mobile__list"><a class="modal-mobile__link" href="./index.html">Agencja</a> </li>
+        <li class="modal-mobile__list"><a class="modal-mobile__link" href="./portfolio.html">Portfolio</a> </li>
+        <li class="modal-mobile__list"><a class="modal-mobile__link" href="">Kontakt</a> </li>
+      </nav>
+    </ul>
+    <div class="tel">
+      <a class="tel__link" href="tel:+48111111111">+48 111 111 111</a>
+    </div>
+    <div class="mail">
+      <a class="mail__link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+    </div>
+    <ul class="modal-mobile__ulsocial" >
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Instagram</a> </li>
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Tweeter</a> </li>
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Facebook</a> </li>
+    <li class="modal-mobile__list"><a class="modal-mobile__social" href="">Linkedin</a> </li>
+    </ul>
+
+  </div>
+  </div>
+  </div>
+  </div>
+ <script src="./js/mobile-menu.js"></script>  
+
+
+  </html>
