@@ -4,24 +4,41 @@
     right: 8px;
     width: 30px;
     height: 30px;
-    background-color: var(--backgroundbody);
-    border: 1px solid (0, 0, 0, 0.1);
+    border:var(--colorsecondary);
+    background-color: var(--colorsecondary);
     cursor: pointer;
     &:hover{
       fill:var(--fillprimary);
     }
+    &__icon{
+      position: absolute;
+      top: 8px;
+      right: 8px;
+      width: 30px;
+      height: 30px;
+        
+    }
   }
 
   .close-mobile {
-    position: absolute  ;
+    position: absolute;
     right:30px;
     top:40px;
     width: 18px;
     height: 18px;
-    background-color: var(--backgroundbody);
-    border: 1px solid (0, 0, 0, 0.1);
+    border:var(--colorsecondary);
+    background-color: var(--colorsecondary);
+    
     cursor: pointer;
     &:hover{
       fill:var(--fillprimary);
+    }
+    &__icon{
+      position: absolute;
+      right:0px;
+      top:0px;
+      width: 18px;
+      height: 18px;
+        
     }
   }

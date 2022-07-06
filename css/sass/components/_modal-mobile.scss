@@ -57,3 +57,30 @@
        
     }
 }
+
+@media screen and (max-width: 479px){
+    .modal-mobile{
+ 
+        &__ulsocial{
+            display:flex;
+            flex-wrap:wrap;
+        }
+        }
+    
+    .tel{
+        margin:100px 0px 30px;
+        &__link{
+            text-decoration:none;
+            font-weight:500;
+            font-size:24px;
+            line-height:1.17em;
+            color:var(--fillprimary);
+        }
+    }
+    .mail{
+        &__link{
+            font-size:24px;
+        }
+    }
+    
+}

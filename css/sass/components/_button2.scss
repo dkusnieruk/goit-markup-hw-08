@@ -42,7 +42,31 @@
       }
     }
   }
+
+  @media screen and (max-width: 479px)
+ {
+  .buttons {
+
+    &__list{
   
+      
+    }
+  
+    &__menu {
+      list-style:none;
+      justify-content: start;
+      padding: 94px 0px 50px;
+      display:flex;
+      flex-wrap:wrap;
+      display:grid;
+      grid-template-columns: auto auto; 
+    }
+  
+ }
+ }  
+  
+
+
   @media screen and (min-width: 768px)
 {
   .buttons {

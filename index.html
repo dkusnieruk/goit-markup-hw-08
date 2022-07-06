@@ -541,9 +541,13 @@
 <!--okno modalne-->    
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
-    <svg class="close-btn">
-      <use href="./css/icon.svg#cancel" data-modal-close></use>
+
+    <button class="close-btn" type="button"  data-modal-close> 
+         <svg class="close-btn__icon">
+      <use href="./css/icon.svg#cancel"></use>
     </svg>
+    </button>
+    
     <form class="modal__form">
       <div class="modal__form-popup">
         <h1 class="modal__title">
@@ -599,9 +603,13 @@
    <!--mobile modalne-->
 <div class="backdrop is-hidden" data-mobile>
 <div class="modal-second">
-  <svg class="close-mobile">
-    <use href="./css/icon.svg#icon-close" class="close-mobile__svg" data-mobile-close></use>
+
+  <button class="close-mobile" type="button" data-mobile-close> 
+     <svg class="close-mobile__icon">
+    <use href="./css/icon.svg#icon-close" class="close-mobile__svg"></use>
   </svg>
+  </button>
+
   <div class="modal-mobile container">
     <ul class="modal-mobile__ul">
       <nav class="modal-mobile__navigation">
